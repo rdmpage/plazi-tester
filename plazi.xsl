@@ -83,6 +83,9 @@
 	</style>		
 	</head>
 	<body>
+	
+	<div><a href="./">Home</a></div>
+	
 	<xsl:apply-templates />
 	</body>
 </xsl:template>
