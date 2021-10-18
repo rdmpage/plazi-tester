@@ -124,9 +124,14 @@ else
 	<tr><td><a href="?uri=023487907016FF9EDAC8FF48FAC1DA10">023487907016FF9EDAC8FF48FAC1DA10</a></td><td>Specimen split in two</td></tr>
 	<tr><td><a href="?uri=C51DEB611E4C5421FF13F9ABA73729F7">C51DEB611E4C5421FF13F9ABA73729F7</a></td><td>Failed to parse specimen citation</td></tr>
 	<tr><td><a href="?uri=03E787D0FFB0FFDA7B8BD57CB2FE779E">03E787D0FFB0FFDA7B8BD57CB2FE779E</a></td><td>Station treated as colelctor, depth treated as elevation</td></tr>
+	<tr><td><a href="?uri=03EB1A42265CFFE3FF1EF9B71C5AF92C">03EB1A42265CFFE3FF1EF9B71C5AF92C</a></td><td>Missed most information, confused collectors with places</td></tr>
+	<tr><td><a href="?uri=6FE5DF2540375B7184495C6134814F7F">6FE5DF2540375B7184495C6134814F7F</a></td><td>Biodiversity Data Journal paper with structured data misinterpeted (origjnal paper <a href="https://doi.org/10.3897/BDJ.9.e64505">doi:10.3897/BDJ.9.e64505</a>)</td></tr>
+	<tr><td><a href="?uri="></a></td><td></td></tr>
 	<tr><td><a href="?uri="></a></td><td></td></tr>
 	<tr><td><a href="?uri="></a></td><td></td></tr>
 	</table>
+
+
 
 
 
