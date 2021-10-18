@@ -15,9 +15,7 @@
 			font-size:1em;
 		}
 		
-		
-		
-.materialsCitation  { background-color: rgb(251,242,64); }
+.materialsCitation  { background-color: rgba(251,242,64,0.5); padding:1em;}
 .collectingCountry { background-color: rgb(223,1289,32); }
 .collectingRegion { background-color: rgb(242,156,36); }
 .collectingCountry { background-color: rgb(242,122,29); }
@@ -85,6 +83,18 @@
 	<body>
 	
 	<div><a href="./">Home</a></div>
+	
+	<form action="." method="get">
+	
+ 		<label for="uri">Treatment bank ID:</label><br/>
+ 		<input type="text" id="uri" name="uri" size="60" >
+ 			<xsl:attribute name="value">
+ 				<xsl:value-of select="/document/@docId" />
+ 			</xsl:attribute>
+		</input><br/>	
+		<input type="submit" value="Submit" />
+	</form>
+	
 	
 	<xsl:apply-templates />
 	</body>
@@ -167,9 +177,33 @@
 
 <xsl:template match="materialsCitation">
 <div class="materialsCitation">
-<mark>
+
+	<!-- data -->
+	<table style="background:rgb(192,192,192);margin-bottom:1em;">
+	<tbody style="font-size:0.9em;font-family:monospace;background:white;">
+	<tr><th>Key</th><th>Value</th></tr>
+	<xsl:for-each select="@*">
+		<xsl:choose>
+			<xsl:when test="name() = 'box'"></xsl:when>
+			<xsl:when test="name() = 'longLatPrecision'"></xsl:when>
+			<xsl:when test="name() = 'pageId'"></xsl:when>
+			<xsl:when test="name() = 'pageNumber'"></xsl:when>
+			<xsl:otherwise>
+			 <tr>
+			  <td>
+			  <xsl:value-of select="name()" />
+			  </td>
+			  <td>
+			  <xsl:value-of select="." />
+			  </td>
+			  </tr>
+			</xsl:otherwise>
+		</xsl:choose>
+    </xsl:for-each>	
+    </tbody>
+    </table>
+
 	<xsl:apply-templates />
-</mark>
 </div>
 </xsl:template>
 

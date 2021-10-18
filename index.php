@@ -101,7 +101,7 @@ else
 	<form action="." method="get">
 	
  		<label for="uri">Treatment bank ID:</label><br>
- 		<input type="text" id="uri" name="uri" value="" placeholder="D50C9F64454CFFDBA6B9F8F0FDBE4B1B" size="60"><br>	
+ 		<input type="text" id="uri" name="uri" value="252C87918B362C05FF20F8C5BFCB3D4E" placeholder="D50C9F64454CFFDBA6B9F8F0FDBE4B1B" size="60"><br>	
 		  <input type="submit" value="Submit">
 	</form>
 </body>
