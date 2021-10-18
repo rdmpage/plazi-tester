@@ -104,6 +104,33 @@ else
  		<input type="text" id="uri" name="uri" value="252C87918B362C05FF20F8C5BFCB3D4E" placeholder="D50C9F64454CFFDBA6B9F8F0FDBE4B1B" size="60"><br>	
 		  <input type="submit" value="Submit">
 	</form>
+	
+	<h2>What is this?</h2>
+	<p>The goal of this project is to understand how accurately <a href="http://plazi.org">Plazi</a> is marking up material citations in documents. The site takes a Plazi treatment in XML form and displays the XML as a marked up web page. In other words, it displays the tags assigned to the text by Plazi. These tags are colour-coded, and there is a tooltip to show the corresponding tag name. The interpretation of the markup by Plazi is shown as a table of key-value pairs.</p>
+
+	<p>To use the web site simply paste in the Plazi treatment id (typically a UUID) and the site will display the marked up document.</p>
+	
+	<p>Parsing specimen information in publications is a challenging problem. One concern is that automated extraction methods can easily generate data from publications without any obvious way to check whether that data makes sense. Below I have listed some examples where Plazi appears to have failed to correctly extract specimen data.</p>
+	
+	<table>
+	<tr><th>Treatment ID</th><th>Issue</th></tr>
+	
+	<tr><td><a href="?uri=74CF9B715E205704A730270742F139CA">74CF9B715E205704A730270742F139CA</a></td><td>Misses specimen</td></tr>
+	<tr><td><a href="?uri=9319C4492C272A7EFF288BEBFC1849AB">9319C4492C272A7EFF288BEBFC1849AB</a></td><td>Splits one specimen into two</td></tr>
+	<tr><td><a href="?uri=03F33310DA38FF875DB5FDF3FC2AF8CD">03F33310DA38FF875DB5FDF3FC2AF8CD</a></td><td>Specimen code interpreted as GenBank accession number</td></tr>
+	<tr><td><a href="?uri=03FC87E61268FFD6D3E36CD2FE12DF29">03FC87E61268FFD6D3E36CD2FE12DF29</a></td><td>Cruise interpreted as collector, depth treated as elevation</td></tr>
+	<tr><td><a href="?uri=DD4987C1FF96247CFF3DFC385F30FE6F">DD4987C1FF96247CFF3DFC385F30FE6F</a></td><td>Collector treated as locality, datum WGS84 interpreted as speicmen code</td></tr>
+	<tr><td><a href="?uri=704ECD36FFF12173FD03EF56CEA6D97D">704ECD36FFF12173FD03EF56CEA6D97D</a></td><td>Specimen split, only first part parsed</td></tr>
+	<tr><td><a href="?uri=023487907016FF9EDAC8FF48FAC1DA10">023487907016FF9EDAC8FF48FAC1DA10</a></td><td>Specimen split in two</td></tr>
+	<tr><td><a href="?uri=C51DEB611E4C5421FF13F9ABA73729F7">C51DEB611E4C5421FF13F9ABA73729F7</a></td><td>Failed to parse specimen citation</td></tr>
+	<tr><td><a href="?uri=03E787D0FFB0FFDA7B8BD57CB2FE779E">03E787D0FFB0FFDA7B8BD57CB2FE779E</a></td><td>Station treated as colelctor, depth treated as elevation</td></tr>
+	<tr><td><a href="?uri="></a></td><td></td></tr>
+	<tr><td><a href="?uri="></a></td><td></td></tr>
+	</table>
+
+
+
+
 </body>
 </html>
 
