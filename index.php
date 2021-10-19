@@ -126,9 +126,11 @@ else
 	<tr><td><a href="?uri=03E787D0FFB0FFDA7B8BD57CB2FE779E">03E787D0FFB0FFDA7B8BD57CB2FE779E</a></td><td>Station treated as colelctor, depth treated as elevation</td></tr>
 	<tr><td><a href="?uri=03EB1A42265CFFE3FF1EF9B71C5AF92C">03EB1A42265CFFE3FF1EF9B71C5AF92C</a></td><td>Missed most information, confused collectors with places</td></tr>
 	<tr><td><a href="?uri=6FE5DF2540375B7184495C6134814F7F">6FE5DF2540375B7184495C6134814F7F</a></td><td>Biodiversity Data Journal paper with structured data misinterpeted (origjnal paper <a href="https://doi.org/10.3897/BDJ.9.e64505">doi:10.3897/BDJ.9.e64505</a>)</td></tr>
-	<tr><td><a href="?uri="></a></td><td></td></tr>
-	<tr><td><a href="?uri="></a></td><td></td></tr>
-	<tr><td><a href="?uri="></a></td><td></td></tr>
+	<tr><td><a href="?uri=252C87918B362C05FF20F8C5BFCB3D4E">252C87918B362C05FF20F8C5BFCB3D4E</a></td><td>Collector initial interpeted as collection code, specimen code treated as accession number</td></tr>
+	<tr><td><a href="?uri=6CA445F8-9162-4F8F-86D8-9A7580F879D4">6CA445F891624F8F86D89A7580F879D4</a></td>No specimens found<td></td></tr>
+	<tr><td><a href="?uri=71F7952EADCA5025A7A45AE1C2811C3D">71F7952EADCA5025A7A45AE1C2811C3D</a></td><td>No specimens found</td></tr>
+	<tr><td><a href="?uri=03FCA61B9A735210FF52F99DFCC38B27">03FCA61B9A735210FF52F99DFCC38B27</a></td><td>Missed lat lon</td></tr>
+	<tr><td><a href="?uri=03A087FA2319FF86FF3D64CDFD9BBABC">03A087FA2319FF86FF3D64CDFD9BBABC</a></td><td>Split one record into two, missed lat lon, duplicates in GBIF</td></tr>
 	</table>
 
 
