@@ -5,3 +5,16 @@ The goal of this project is to understand how accurately [Plazi](http://plazi.or
 To use the web site simply paste in the Plazi treatment id (typically a UUID) and the site will display the marked up document.
 
 
+## Notes
+
+There is a web service for parsing material citations here: https://tb.plazi.org/GgWS/wss/test
+
+To call this send a `x-www-form-urlencoded` POST request to `http://tb.plazi.org/GgWS/wss/invokeFunction` with the following parameters:
+
+Key | Value
+--|--
+data | text of material citation to be parsed
+functionName | `MaterialsCitationExtractor.webService`
+dataFormat | `TXT` 
+
+

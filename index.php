@@ -131,6 +131,12 @@ else
 	<tr><td><a href="?uri=71F7952EADCA5025A7A45AE1C2811C3D">71F7952EADCA5025A7A45AE1C2811C3D</a></td><td>No specimens found</td></tr>
 	<tr><td><a href="?uri=03FCA61B9A735210FF52F99DFCC38B27">03FCA61B9A735210FF52F99DFCC38B27</a></td><td>Missed lat lon</td></tr>
 	<tr><td><a href="?uri=03A087FA2319FF86FF3D64CDFD9BBABC">03A087FA2319FF86FF3D64CDFD9BBABC</a></td><td>Split one record into two, missed lat lon, duplicates in GBIF</td></tr>
+	<tr><td><a href="?uri=03936656F63EE0DE7AB0FAF8FDE1F93B">03936656F63EE0DE7AB0FAF8FDE1F93B</a></td><td>Multiple species run together</td></tr>
+	<tr><td><a href="?uri=03EF1D76C8269652FF2FE282FDA10C3D">03EF1D76C8269652FF2FE282FDA10C3D</a></td><td>Museum conflated with locality (Germany versus Ecuador)</td></tr>
+
+
+
+
 	</table>
 
 
