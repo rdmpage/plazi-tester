@@ -106,12 +106,13 @@ else
 	</form>
 	
 	<h2>What is this?</h2>
-	<p>The goal of this project is to understand how accurately <a href="http://plazi.org">Plazi</a> is marking up material citations in documents. The site takes a Plazi treatment in XML form and displays the XML as a marked up web page. In other words, it displays the tags assigned to the text by Plazi. These tags are colour-coded, and there is a tooltip to show the corresponding tag name. The interpretation of the markup by Plazi is shown as a table of key-value pairs.</p>
+	<p>The goal of this project is to understand how accurately <a href="http://plazi.org">Plazi</a> is marking up material citations in documents. Parsing specimen information in publications is a challenging problem. Ideally we would have a way of checking whether the extracted data is correct. In the apparent absence of such tools I've created this web site.</p>.
+	
+	<p>This site takes a Plazi treatment in XML form and displays the XML as a marked up web page. In other words, it displays the tags assigned to the text by Plazi. These tags are colour-coded, and there is a tooltip to show the corresponding tag name. The interpretation of the markup by Plazi is shown as a table of key-value pairs.</p>
 
-	<p>To use the web site simply paste in the Plazi treatment id (typically a UUID) and the site will display the marked up document.</p>
+	<p>To use the web site simply paste in the Plazi treatment id (typically a UUID) and the site will display the marked up document. Below I have listed some examples where Plazi appears to have failed to correctly extract specimen data.</p>
 	
-	<p>Parsing specimen information in publications is a challenging problem. One concern is that automated extraction methods can easily generate data from publications without any obvious way to check whether that data makes sense. Below I have listed some examples where Plazi appears to have failed to correctly extract specimen data.</p>
-	
+	<h2>Some examples to explore</h2>
 	<table>
 	<tr><th>Treatment ID</th><th>Issue</th></tr>
 	
@@ -134,13 +135,20 @@ else
 	<tr><td><a href="?uri=03936656F63EE0DE7AB0FAF8FDE1F93B">03936656F63EE0DE7AB0FAF8FDE1F93B</a></td><td>Multiple species run together</td></tr>
 	<tr><td><a href="?uri=03EF1D76C8269652FF2FE282FDA10C3D">03EF1D76C8269652FF2FE282FDA10C3D</a></td><td>Museum conflated with locality (Germany versus Ecuador)</td></tr>
 
+	<tr><td><a href="?uri=5244B05E-FFC8-E20F-7BC3-2056C178F496">5244B05E-FFC8-E20F-7BC3-2056C178F496</a></td><td>Type specimen for <i>Bulbophyllum hamatum</i> split into two specimens.</td></tr>
 
+<tr><td><a href="?uri=0D228E6AFFC2FFEFFF4DE8118C4EE6B9">0D228E6AFFC2FFEFFF4DE8118C4EE6B9</a></td><td>coordinates not parsed correctly (missed the degrees)</td></tr>
+
+<tr><td><a href="?uri="></a></td><td></td></tr>
+<tr><td><a href="?uri="></a></td><td></td></tr>
 
 
 	</table>
 
 
-
+	<h2>Parser tool</h2>
+	
+	<p>A version of the Plazi material citation parser is available as a web service. I have constructed a simple wrapper around that service so that you can paste in a specimen citation and see how Plazi interprets it.</p>
 
 
 
