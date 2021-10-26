@@ -148,7 +148,11 @@ else
 
 	<h2>Parser tool</h2>
 	
+	
 	<p>A version of the Plazi material citation parser is available as a web service. I have constructed a simple wrapper around that service so that you can paste in a specimen citation and see how Plazi interprets it.</p>
+	
+	<p><a href="parser.php">Go to parser</a></p>
+
 
 
 
