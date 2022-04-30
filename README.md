@@ -4,6 +4,9 @@ The goal of this project is to understand how accurately [Plazi](http://plazi.or
 
 To use the web site simply paste in the Plazi treatment id (typically a UUID) and the site will display the marked up document.
 
+## Plazi code
+
+The relevant code for analysing text and extracting entities is here: https://github.com/gsautter/idaho-analyzers/tree/master/files/Plugins/AnalyzerData
 
 ## Notes
 
